@@ -1,0 +1,19 @@
+{
+  "name": "usd-minimal-viewer",
+  "private": true,
+  "type": "module",
+  "version": "0.3.0-alpha.1",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/finalize.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@classcad/smlibwasm": "0.6.2",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "vite": "8.2.1"
+  },
+  "license": "MIT"
+}
